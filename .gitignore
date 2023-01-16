@@ -1,3 +1,5 @@
 # Environments
 .env
 
+# django stuff:
+.DS_Store
