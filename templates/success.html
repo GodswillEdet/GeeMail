@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Css file -->
-    <link rel="stylesheet" href="./success.css" />
+    <link rel="stylesheet" href="{% static 'success.css' %}" />
     <!-- Fontawesome icon library -->
     <link
       rel="stylesheet"
@@ -17,6 +19,6 @@
     <i class="fa fa-paper-plane icon"></i>
 
     <h1>Message Delivered!!!</h1>
-    <a href="./index.html">New message</a>
+    <a href="{% url 'home' %}">New message</a>
   </body>
 </html>
