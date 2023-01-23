@@ -1,27 +1,29 @@
 # Installation
 
-Clone Repo
+1. Clone Repo
 
 ```sh
 git clone https://github.com/GodswillEdet/GeeMail.git.
 ```
-cd to the project folder
 
-Create your own virtual environment
+2. cd to the project folder
+
+
+3. Create your own virtual environment
 
 ```sh
  python<version> -m venv <virtual-environment-name>
 ```
 
-Install requirements
+4. Install requirements
 
 ```sh
 pip install -r requirements.txt
 ```
 
-Generate a new secret key.
+5. Generate a new secret key.
 
-Make your migrations.
+6. Make your migrations.
 
 
 
