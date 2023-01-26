@@ -21,7 +21,7 @@ git clone https://github.com/GodswillEdet/GeeMail.git.
 pip install -r requirements.txt
 ```
 
-5. Generate a new secret key.
+5. Generate a new secret key
 
 6. Make your migrations.
 
