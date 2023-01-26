@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 5. Generate a new secret key
 
-6. Make your migrations.
+6. Make your migrations
 
 
 
