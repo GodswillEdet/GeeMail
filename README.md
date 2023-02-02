@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 6. Make your migrations
 
-Got problems?
+# Got problems?
 
 
 
